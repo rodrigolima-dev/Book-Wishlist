@@ -33,14 +33,19 @@ export const Input = styled.TextInput `
 export const CenterView = styled.View `
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
 `;
 
 export const Button = styled.TouchableOpacity `
     background-color: #FFF;
     height: 40px;
+    width: 90px;
     border-radius: 5px;
     padding: 5px;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ButtonText = styled.Text `
